@@ -20,7 +20,7 @@ document.addEventListener('keydown', function (event) {
         handleInput('DEL');
     } else if (key === 'Escape') {
         handleInput('AC');
-    } else if ('0123456789+-*/.'.includes(key)) {
+    } else if ('0123456789+-*/%.'.includes(key)) {
         handleInput(key);
     }
 });
